@@ -1,3 +1,4 @@
+/*
 package com.example.theplebroad.libtest
 import kotlinx.coroutines.runBlocking
 import rust.nostr.protocol.Filter
@@ -26,3 +27,4 @@ fun main() = runBlocking<Unit>{
 
 
 
+*/
