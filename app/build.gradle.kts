@@ -51,7 +51,11 @@ android {
 }
 
 dependencies {
+    //nostr-rust-sdk
+    implementation("org.rust-nostr:nostr-sdk:0.32.2")
+    implementation("net.java.dev.jna:jna:5.12.0@aar")
 
+    //amethyst
     implementation(libs.quartz)
     implementation(libs.ammolite)
     implementation(libs.commons)
